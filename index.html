@@ -2,49 +2,125 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sam Lazar - The Dangerous Innovator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sam Lazar | Dangerous CEO Portfolio</title>
   <style>
     body {
       margin: 0;
+      padding: 0;
       font-family: 'Courier New', monospace;
-      background-color: #000;
-      color: #00ff99;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
+      background: #0e0e0e;
+      color: #00ffcc;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 40px 20px;
       text-align: center;
-      background-image: radial-gradient(circle at top left, #111, #000);
     }
-
-    h1 {
-      font-size: 3em;
-      text-transform: uppercase;
-      letter-spacing: 2px;
+    header h1 {
+      font-size: 40px;
+      margin: 0;
     }
-
-    p {
-      font-size: 1.2em;
-      margin-top: 20px;
-      color: #ccc;
+    header p {
+      font-style: italic;
+      font-size: 18px;
+      color: #999;
     }
-
-    .glow {
-      color: #00ff99;
-      text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99, 0 0 30px #00ff99;
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00ffff;
+    }
+    .card {
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #00ff99;
+      color: black;
       font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background-color: #00cc77;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      background: #222;
+      border: 1px solid #444;
+      color: #fff;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #00ff99;
+      color: #000;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
     }
   </style>
 </head>
 <body>
-  <div>
-    <h1 class="glow">Sam Lazar</h1>
-    <p class="glow">I’m not just building startups...<br>
-    I’m rewriting the rules.</p>
-    <p>Known for <strong>dangerous market tactics</strong>,<br>
-    unpredictable strategies, and untamed innovation.<br><br>
-    Watch closely. This is how revolutions start.</p>
-  </div>
+  <header>
+    <h1>Sam Lazar</h1>
+    <p>Innovator. Visionary. Dangerous in the Market.</p>
+  </header>
+
+  <section>
+    <h2>💡 Vision</h2>
+    <div class="card">
+      <p>To disrupt traditional thinking and build startup ecosystems where daring, danger, and discipline meet opportunity.</p>
+    </div>
+
+    <h2>🚀 Projects & Startups</h2>
+    <div class="card">
+      <h3>Project 1: [Your Startup Name]</h3>
+      <p>A stealth-mode startup working on market disruption using unorthodox digital growth hacking methods.</p>
+      <a class="button" href="#">View Details</a>
+    </div>
+
+    <h2>🧠 Dangerous Market Tactics</h2>
+    <div class="card">
+      <ul>
+        <li>⚡ Virality Engineering (unfiltered outreach)</li>
+        <li>🎯 Reverse Positioning & Provocative Messaging</li>
+        <li>💀 Ruthless Niche Capture</li>
+      </ul>
+    </div>
+
+    <h2>🔥 Future Vision</h2>
+    <div class="card">
+      <p>Building a globally feared and respected tech empire. Raising an army of rebel founders. Shifting culture with code, charisma, and conviction.</p>
+    </div>
+
+    <h2>📞 Contact Me</h2>
+    <div class="card">
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <h2>🔗 Connect</h2>
+    <div class="card">
+      <a class="button" href="https://github.com/Zam5272" target="_blank">GitHub</a>
+      <a class="button" href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </div>
+  </section>
 </body>
 </html>
